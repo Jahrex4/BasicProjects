@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: 0;
+}
+
+body {
+    background: #1a1924;
+    color: #fff;
+}
+
+.header {
+    padding: 32px 72px 14px 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.header-profile img {
+    height: 48px;
+    border-radius: 50%;
+}
+
+.profile-name h5 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 16px;
+}
+
+.profile-online {
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+
+.hoje {
+    text-align: center;
+}
+
+p.hoje {
+    font-size: 12px;
+    color: #E1E1E6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message-container {
+    padding: 30px 72px;
+}
+
+.clock {
+    margin-bottom: 10px;
+}
+
+.clock-2 {
+    margin-bottom: 10px;
+}
+
+.clock p {
+    color: #E1E1E6;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clock-2 p {
+    color: #E1E1E6;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message-container .message {
+    background: #633BBC;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 252px;
+    height: 42px;
+}
+
+.message-container .message p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.message-container-2 {
+    padding: 30px 72px;
+    display: flex;
+    justify-content: end;
+}
+
+.message-container-2 .message {
+    background: #07847E;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 252px;
+    height: 42px;
+}
+
+.message-container-2 .message p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.message-box {
+    flex-direction: column;
+}
+
+.search-container {
+    padding: 24px 72px 32px 72px;
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search-container .search input {
+    padding: 14px 24px 14px 24px;
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
+    border: none;
+    background: #282843;
+    width: 880px;
+    height: 52px;
+    color: #fff;
+}
